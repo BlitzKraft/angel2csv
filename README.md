@@ -14,5 +14,19 @@ seemed too inconvenient to do so by hand. So, I decided to automate it.
 And voila! You have a neatly formatted file to be imported into any spreadsheet
 application.
 
+## Features
+
+Not much. Gets the following:
+* Company name
+* Job title
+* Salary Range
+* Equity (if specified)
+
+## Bugs
+
+* If salary is unspecified, it returns equity in place of it and does not
+  report an empty value.
+
+
 Feel free to fork and star it!!
 
